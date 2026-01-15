@@ -1,0 +1,130 @@
+1. Download and Install Python
+
+Go to the official website:
+👉 https://www.python.org/downloads/
+
+Download the latest Python 3 version.
+
+During installation:
+✅ Check “Add Python to PATH”
+
+Finish installation.
+
+Verify Installation
+
+Open Command Prompt / Terminal and run:
+
+python --version
+
+
+or
+
+python3 --version
+
+
+✅ If you see a version number, Python is installed correctly.
+
+2. Install VS Code & Python Extension
+
+Download VS Code from:
+👉 https://code.visualstudio.com/
+
+Install VS Code.
+
+Open VS Code → Extensions (Ctrl + Shift + X)
+
+Search Python → Install (by Microsoft)
+
+✅ This enables syntax highlighting, linting, and debugging.
+
+3. Create a New Project Folder
+
+Create a folder anywhere on your system, for example:
+
+python_basics_project
+
+
+Open VS Code → File → Open Folder
+
+Select python_basics_project
+
+This simulates a real project structure.
+
+4. Create hello_world.py
+
+Inside VS Code:
+
+Right-click → New File
+
+Name it:
+
+hello_world.py
+
+5–9. Write the Python Program (With Variables, Input & Comments)
+Final Code (Fully Commented)
+# Import datetime module to get today's date
+import datetime
+
+# Ask user to enter their name
+name = input("Enter your name: ")
+
+# Ask user to enter their internship role
+role = input("Enter your internship role: ")
+
+# Get today's date
+today_date = datetime.date.today()
+
+# Print the details
+print("\n--- Intern Details ---")
+print("Name:", name)
+print("Internship Role:", role)
+print("Today's Date:", today_date)
+
+6. Why Variables Are Used
+
+name → stores user's name
+
+role → stores internship role
+
+today_date → stores current date
+
+✅ This avoids hardcoding values and makes the program reusable.
+
+7. Run the Program from Terminal
+
+In VS Code:
+
+Open Terminal (`Ctrl + ``)
+
+Run:
+
+python hello_world.py
+
+Example Output
+Enter your name: Vasu
+Enter your internship role: Python Intern
+
+--- Intern Details ---
+Name: Vasu
+Internship Role: Python Intern
+Today's Date: 2026-01-15
+
+8. Execution Flow (Easy Understanding)
+
+Python imports the datetime module
+
+Program asks user for input
+
+Stores inputs in variables
+
+Fetches today’s date
+
+Prints formatted output
+
+9. Best Practices You Learned
+
+✅ Using variables
+✅ Taking user input
+✅ Writing comments
+✅ Running scripts from terminal
+✅ Basic project structure.
