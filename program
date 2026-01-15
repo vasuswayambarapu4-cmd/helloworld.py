@@ -1,0 +1,16 @@
+# Import datetime for current date
+from datetime import datetime
+
+# Accept user input for name
+name = input("Enter your name: ")
+
+# Accept user input for role
+role = input("Enter your internship role: ")
+
+# Get today's date automatically
+today_date = datetime.now().strftime("%d/%m/%Y")
+
+# Display personalized output
+print(f"Hello, I am {name}")
+print(f"My internship role: {role}")
+print(f"Today's date: {today_date}"
